@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>GP</title>
+    <style>
+        body {
+            background-color: #F5F5F5;
+        }
+        .layout {
+            display: flex;
+            justify-content: center;
+        }
+        .gp_layout {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 70%;
+        }
+        .gp_searh {
+            width: 300px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: white;
+            margin: 50px 0;
+            padding: 5px 10px;
+            border: 1px solid rgba(0,0,0,0.4);
+            border-radius: 20px;
+        }
+        .gp_search__icon {
+            margin: 0 15px;
+        }
+        .gp_searh__input {
+            width: 250px;
+            padding: 10px 10px;
+            border: none;
+            border-radius: 10px;
+        }
+        .gp_contents {
+            display: flex;
+            width: 100%;
+        }
+        .gp_contents__profile {
+            width : 40%;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+        .gp_contents__profile__img_name {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .gp_title {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        .profile__img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .layout__list {
+            width: 60%;
+            height: 100vh;
+        }
+        .profile__eng_name {
+            margin-top: 20px;
+            display: block;
+        }
+        .profile__kor_name {
+            margin-bottom: 20px;
+        }
+        .label {
+            color: #FF4800;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .gp_contents__profile__about {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+    <div class="gp_layout">
+        <search class="gp_searh">
+            <i class="gp_search__icon fa-solid fa-magnifying-glass"></i>
+            <input class="gp_searh__input" type="text" placeholder="search">
+        </search>
+        <header class="gp_title">
+            <h1>Keyman</h1>
+        </header>
+        <main class="gp_contents">
+            <div class="gp_contents__profile">
+                <div class="gp_contents__profile__img_name">
+                    <img class="profile__img" src="img/logo.png"/>
+                    <div class="profile__eng_name">StarBuck</span>
+                    <div class="profile__kor_name">(스타벅스)</span>
+                </div>
+            </div>
+            <div class="gp_contents__profile__about">
+                <h1 class="gp_contents__profile__about__title label">About</h1>
+                
+            </div>
+        </main>
+    </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a9013cbf7a.js" crossorigin="anonymous"></script>
+</body>
+</html>
