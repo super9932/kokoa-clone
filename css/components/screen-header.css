@@ -14,6 +14,16 @@
     font-weight: 600;
 }
 
-.screen-header__icons span  {
-    margin-left: 25px;
+.screen-header__icons {
+    display: flex;
+    align-items: center;
+}
+
+.screen-header__icons > span {
+    margin-left:  20px;
+    position: relative;
+}
+
+.screen-header__icons--setting {
+    top : -5px;
 }

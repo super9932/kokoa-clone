@@ -5,8 +5,18 @@
 @import "components/nav-bar.css";
 @import "screens/login.css";
 @import "components/screen-header.css";
+@import "components/user-components.css";
 @import "screens/friends.css";
+@import "screens/finds.css";
+@import "components/badge.css";
+@import "components/noti-point.css";
 
 body {
     font-family: "Open Sans", sans-serif;
+}
+
+.main-screen {
+    position: relative;
+    top: 112px;
+    padding: 0 var(--horizontal-space);
 }

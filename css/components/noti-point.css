@@ -1,0 +1,11 @@
+.noti-point {
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    right : -3px;
+}
